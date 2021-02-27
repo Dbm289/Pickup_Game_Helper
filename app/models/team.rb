@@ -1,0 +1,4 @@
+class TEAM < ActiveRecord::Base
+    has_many :users
+    has_many :courts
+end
